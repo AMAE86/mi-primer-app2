@@ -1,17 +1,15 @@
-import React from "react"
-import {Link} from 'react-router-dom';
+import React from "react";
 
 
 const Navar = () => {
-  
   return (
     <header>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
       <h1 class="logo">
-        <Link className="navbar-brand" to='/'>
+        <a className="navbar-brand" href="#!">
           <span>IT</span>Rescue
-        </Link>
+        </a>
       </h1>
         <button
           className="navbar-toggler"
@@ -27,37 +25,37 @@ const Navar = () => {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to='/'>
+              <a className="nav-link active" aria-current="page" href="#!">
                 Home
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to='/About'>
+              <a className="nav-link" href="#!">
                 Nosotros
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to='/Services'>
+              <a className="nav-link" href="#!">
                 Servicios
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to='/Contac'>
+              <a className="nav-link" href="#!">
                 Contacto
-              </Link>
+              </a>
             </li>
           </ul>
           <span className="navbar-text header-social-links">
-            <a className="twitter" href="https://twitter.com/?lang=es/" target="_blank" rel="noopener noreferrer" >
+            <a href="#!" className="twitter">
               <i className="bu bi-twitter"></i>
             </a>
-            <a className="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" >
-              <i className="bu bi-facebook" ></i>
+            <a href="#!" className="facebook">
+              <i className="bu bi-facebook"></i>
             </a>
-            <a className="instagram" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" >
+            <a href="#!" className="instagram">
               <i className="bu bi-instagram"></i>
             </a>
-            <a className="linkedin"  href="https://mx.linkedin.com/"  target="_blank" rel="noopener noreferrer">
+            <a href="#!" className="linkedin">
               <i className="bu bi-linkedin"></i>
             </a>
           </span>

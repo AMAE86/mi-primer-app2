@@ -1,4 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -23,11 +25,11 @@ const Footer = () => {
           <div className="col-lg-2 col-md-6 footer-links">
             <h4>Ligas:</h4>
             <ul>
-              <li><i className="bx bx-chevron-right"></i> <a href="#!">Home</a></li>
-              <li><i className="bx bx-chevron-right"></i> <a href="#!">Nosotros</a></li>
-              <li><i className="bx bx-chevron-right"></i> <a href="#!">Servicios</a></li>
-              <li><i className="bx bx-chevron-right"></i> <a href="#!">Terms of service</a></li>
-              <li><i className="bx bx-chevron-right"></i> <a href="#!">Privacy policy</a></li>
+              <li><i className="bx bx-chevron-right"></i> <Link to='/'>Home</Link></li>
+              <li><i className="bx bx-chevron-right"></i> <Link to='/About'>Nosotros</Link></li>
+              <li><i className="bx bx-chevron-right"></i> <Link to='/Services'>Servicios</Link></li>
+              <li><i className="bx bx-chevron-right"></i> <Link href="#!">Terms of service</Link></li>
+              <li><i className="bx bx-chevron-right"></i> <Link href="#!">Privacy policy</Link></li>
             </ul>
           </div>
 

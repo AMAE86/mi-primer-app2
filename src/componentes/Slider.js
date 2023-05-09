@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import slide1 from '../img/slide/slide-1a.jpg';
 import slide2 from '../img/slide/slide-2a.jpg';
 import slide3 from '../img/slide/slide-3a.jpg';
+import { Link } from 'react-router-dom';
 
 export const Slider = () => {
   return (
@@ -50,9 +51,9 @@ export const Slider = () => {
                   informáticos"."
                 </p>
                 <div class="text-center">
-                  <a href="services.html" class="btn-get-started">
+                  <Link to='/Services' class="btn-get-started">
                     Nuestros Servicios
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -71,9 +72,9 @@ export const Slider = () => {
                   manera rápida y efectiva."
                 </p>
                 <div class="text-center">
-                  <a href="contact.html" class="btn-get-started">
+                  <Link to='/Contac' class="btn-get-started">
                     CONTACTANOS
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -88,9 +89,9 @@ export const Slider = () => {
                   asegurar el éxito de tu negocio."
                 </p>
                 <div class="text-center">
-                  <a href="about.html" class="btn-get-started">
+                  <Link to='/About' class="btn-get-started">
                     Conocenos
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
